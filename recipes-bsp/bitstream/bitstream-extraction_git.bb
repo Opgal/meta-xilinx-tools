@@ -9,7 +9,8 @@ PROVIDES = "virtual/bitstream"
 
 PACKAGE_ARCH ?= "${MACHINE_ARCH}"
 
-inherit xsctbit deploy image-artifact-names
+# inherit xsctbit deploy image-artifact-names
+inherit xsctbit deploy
 
 XSCTH_MISC = "-hwpname ${XSCTH_PROJ}_hwproj -hdf_type ${HDF_EXT}"
 

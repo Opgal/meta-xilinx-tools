@@ -12,7 +12,8 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 COMPATIBLE_MACHINE ?= "^$"
 COMPATIBLE_MACHINE_microblaze = ".*"
 
-inherit deploy image-artifact-names
+# inherit deploy image-artifact-names
+inherit deploy
 
 do_fetch[noexec] = "1"
 do_unpack[noexec] = "1"

@@ -6,7 +6,8 @@ LIC_FILES_CHKSUM = "file://xadcps/data/xadcps.mdd;md5=f7fa1bfdaf99c7182fc0d8e7fd
 PROVIDES = "virtual/dtb"
 
 require recipes-bsp/device-tree/device-tree.inc
-inherit xsctdt xsctyaml image-artifact-names
+# inherit xsctdt xsctyaml image-artifact-names
+inherit xsctdt xsctyaml
 BASE_DTS ?= "system-top"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"

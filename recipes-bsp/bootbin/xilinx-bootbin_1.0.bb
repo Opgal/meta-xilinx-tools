@@ -158,7 +158,7 @@ do_compile_append_versal() {
 
 do_install[noexec] = "1"
 
-inherit image-artifact-names
+# inherit image-artifact-names
 
 QEMUQSPI_BASE_NAME ?= "QEMU_qspi-${MACHINE}${IMAGE_VERSION_SUFFIX}"
 

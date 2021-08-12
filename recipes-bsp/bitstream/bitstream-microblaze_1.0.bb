@@ -45,7 +45,7 @@ do_install() {
     fi
 }
 
-inherit image-artifact-names
+# inherit image-artifact-names
 
 DOWNLOADBIT_BASE_NAME ?= "download-${MACHINE}${IMAGE_VERSION_SUFFIX}"
 

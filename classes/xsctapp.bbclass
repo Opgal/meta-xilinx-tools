@@ -1,6 +1,7 @@
 S = "${WORKDIR}/git"
 
-inherit xlnx-embeddedsw xsctbase image-artifact-names
+inherit xlnx-embeddedsw xsctbase
+# inherit image-artifact-names
 
 PACKAGE_ARCH ?= "${MACHINE_ARCH}"
 
