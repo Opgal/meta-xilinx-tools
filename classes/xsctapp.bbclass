@@ -1,7 +1,8 @@
 S = "${WORKDIR}/git"
 
+ESW_VER ?= "${XILINX_VER_MAIN}"
+
 inherit xlnx-embeddedsw xsctbase
-# inherit image-artifact-names
 
 PACKAGE_ARCH ?= "${MACHINE_ARCH}"
 
